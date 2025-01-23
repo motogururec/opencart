@@ -24,8 +24,8 @@ services:
     ports:
       - "3306:3306"
     environment:
-      - MYSQL_ROOT_PASSWORD=opencart_kjkga66
-      - MYSQL_DATABASE=opencart_kjgakga77arTT
+      - MYSQL_ROOT_PASSWORD=opencart
+      - MYSQL_DATABASE=opencart
 
   adminer:
     image: adminer:latest
@@ -45,6 +45,6 @@ services:
   postgres:
     image: postgres:latest
     environment:
-      - POSTGRES_USER=postgres_kjgbkjga66RR
-      - POSTGRES_PASSWORD=opencart_lkhlohg856HD
-      - POSTGRES_DB=opencart_KGH85D
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=opencart
+      - POSTGRES_DB=opencart
